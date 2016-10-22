@@ -6,7 +6,7 @@
 	$password = $_POST['upw'];  
  
 	$sql = "INSERT INTO user (uid, pwd) 
-					VALUES ('$username', '$password')";
+		VALUES ('$username', '$password')";
 	$result = mysqli_query($conn, $sql);  
 
 	//header("Location: index.php");
