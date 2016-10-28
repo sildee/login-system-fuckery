@@ -4,29 +4,33 @@
     text-decoration: none;
 }
 
+body {
+    background-color:#d4d8d8;
+}
 header {
     width: 100%;
     height: 60px;
-    background-color:#434343;
+    background-color:#222222;
 
 }
 
+
 nav ul {
-    float: right;
-    margin-top: 20px;
-    margin-right: 60px;
+    display:table;
+    margin:auto
 }
 
 nav ul li {
     list-style: none;
     float: left;
     margin-right: 20px;
+    margin-top:15px;
 }
 
 nav ul li a {
     color: #fff;
     font-family: Arial;
-    font-size: 16px
+    font-size: 25px;
 }
 
 nav ul form {
@@ -37,14 +41,45 @@ nav ul form input {
     float: left;
     border:none;
     margin-right:5px;
+    margin-top:15px;
+    height:30px;
+    width:200px;
 }
 
 nav ul form button {
     float: left;
     border:none;
     margin-right:20px;
-    background-color: #434360;
-    color:#fff;
+    margin-top:15px;
+    background-color: #fff;
+    color:#222222;
     font-size:16px;
     cursor:pointer;
+    height:30px;
+    width:90px;
+}
+li a {
+    margin-bottom:20px;
+    margin-top:15px;
+}
+
+#regform {
+    display:table;
+    margin:auto;
+}
+
+#regform form input {
+    width:400px;
+    height:50px;
+    margin-top:5px;
+    border:1px #222;
+}
+#regform form button {
+    width:400px;
+    height:50px;
+    margin-top:5px;
+    background-color:#f4b002;
+    border:1px #222;
+    font-family:Arial;
+    font-size:40px;
 }

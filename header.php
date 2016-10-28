@@ -14,7 +14,7 @@
 <header>
     <nav>
         <ul>
-            <li><a href="index.php">Home</a></li>
+            <li><a href="index.php">HOME</a></li>
             <?php
                 if(isset($_SESSION['id'])) {
 		            echo "<form action='includes/logout.inc.php'>
